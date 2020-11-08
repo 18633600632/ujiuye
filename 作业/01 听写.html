@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //1.使用闭包，让id、name外界不可见
+        var User1 = function () { }
+        User1.prototype = {
+            id: "",
+            name: "",
+            getId: function () { return this.id; },
+            setId: function (id) { this.id = id; },
+            getName: function () { return this.name; },
+            setName: function (name) { this.name = name; }
+        }
+        var user = new User1();
+        console.log(user);
+
+        function User2() {
+            var id = "";
+            return {
+                setId: function (i) {
+                    id = i;
+                },
+                getId: function () {
+                    return id;
+                }
+            }
+        }
+        var user2 = new User2();
+        console.log(user2);
+        user2.setId("001");
+        console.log(user2.getId());
+
+
+
+        var User3 = function () {
+            var id = "";
+            var name = "";
+            this.__proto__ = {
+                "setId": function (i) { id = i; },
+                "getId": function () { return id; },
+                "setName": function (n) { Name = n; },
+                "getName": function () { return Name; }
+            }
+        }
+        var user3 = new User3();
+        console.log(user3);
+        user3.setName("小明");
+        console.log(user3.getName());
+
+
+        /* 
+        小贤有一条可爱的狗(Dog),它的叫声很好听(wow),每次看到主人的时候就会乖乖叫一声(yelp),从这段描述可以得到以下对象：                                                
+        function Dog(){
+             this.wow = function(){
+               alert(‘wow’);
+             }
+             this.yelp = function(){
+                 this.wow();
+             }
+         }
+         小芒和小贤一样原来也有一条可爱的狗，可是突然有一点疯了(MadDog),一看到人就会每隔半秒叫一声(wow)地不停叫唤(yelp)。请根据描述，按示例形式用代码来实现。(继承，原型，setInterval) 
+         */
+        function Dog() {
+            this.wow = function () {
+                alert("wow");
+            };
+            this.yelp = function () {
+                this.wow();
+            }
+        }
+
+        function MadDog() {
+            Dog.call(this);
+            var _this = this;
+            this.yelp = function () {
+                // setInterval(function(){
+                //     _this.wow();
+                // },2000);
+                setInterval(this.wow, 500);
+            }
+        }
+        var mDog = new MadDog();
+        mDog.yelp();
+
+
+        //3.ajax的請求過程
+        //创建请求对象
+        var req = new XMLHttpRequest();
+        //建立链接
+        req.open("get","url",true);
+        //发送请求
+        req.send();
+        //监听结果
+        req.onreadystatechange = function(){
+            if(req.readyState === 4){
+                if(req.status === 200){
+                    console.log(req.responseText);
+                }
+            }
+        }     
+    </script>
+</body>
+
+</html>

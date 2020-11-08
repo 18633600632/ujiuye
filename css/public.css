@@ -1,0 +1,265 @@
+/* 公共 */
+body {
+    background-color: #f5f5f5;
+}
+
+.w1200 {
+    width: 1200px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 头部----------------------------------------- */
+.head {
+    height          : 60px;
+    border-bottom   : 1px solid #e6e6e6;
+    background-color: #fff;
+}
+
+/* 头部logo---------------------------------------- */
+.head .eLogo {
+    padding-top: 15px;
+}
+
+/* 头部中间--------------------------------------- */
+.head .e_nav {
+    width      : 630px;
+    margin-left: 30px;
+    padding-top: 18px;
+}
+
+.e_nd {
+    position: relative;
+    width   : 88px;
+    height  : 30px;
+}
+
+.e_nd>a {
+    position   : absolute;
+    display    : block;
+    width      : 100%;
+    height     : 100%;
+    text-align : center;
+    line-height: 30px;
+    font-size  : 16px;
+    color      : #666;
+    z-index    : 3;
+}
+
+.e_nd>a.hot {
+    background: url('../img/ujyx_13.jpg') no-repeat right center;
+}
+
+.e_nd  a:hover {
+    color: #ff4905;
+}
+
+.e_nd em {
+    position       : absolute;
+    left           : 0;
+    top            : 0;
+    width          : 100%;
+    height         : 100%;
+    background     : url('../img/NavIcoActive.jpg') no-repeat 0 0;
+    background-size: 100% 100%;
+    transform      : scale(0.5, 0.5);
+    opacity        : 0;
+    animation      : pulse 0.5s linear normal forwards;
+ 
+}
+
+.e_nd .appLoad {
+    width        : 86px;
+    height       : 28px;
+    line-height  : 28px;
+    color        : #ff4905;
+    border       : 1px solid #ff4905;
+    border-radius: 6px;
+}
+.zg{
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+    /* box-shadow:  */
+   line-height: 30px;
+    position: absolute;
+    left: 0px;
+    top: 32px;
+    background-color: #fff; 
+    box-shadow: 0px 0px 5px #ededed;
+    display: none;
+    z-index: 9999;
+    padding: 5px 20px;
+  }
+  .e_nd:hover .zg{
+  display: block;
+  animation: pulse 0.5s linear normal forwards;
+  }
+  .e_nd .zg a{
+    color: #666;
+  }
+  .e_nd .zg a:hover{
+  color: #fe4902;
+  }
+
+/* 头部右边------------------------------------ */
+.head .eTopRight {
+    width      : 320px;
+    padding-top: 19px;
+}
+
+.formSecher {
+    /* width : 148px; */
+    width     : 28px;
+    height    : 28px;
+    transition: all 0.3s;
+}
+
+.eSecher {
+    /* width        : 146px; */
+    width        : 26px;
+    height       : 26px;
+    border       : 1px solid transparent;
+    border-radius: 13px;
+    position     : relative;
+    transition   : all 0.3s;
+}
+
+.eText {
+    border         : none;
+    background     : none;
+    /* width       : 115px; */
+    width          : 0;
+    padding-left   : 10px;
+    height         : 26px;
+    outline        : none;
+    /* 去掉谷歌中的框 */
+    transition     : all 0.3s;
+}
+
+.eSub {
+    border    : none;
+    width     : 17px;
+    height    : 17px;
+    background: url('../img/etk_09.jpg') no-repeat;
+    position  : absolute;
+    right     : 3px;
+    top       : 5px;
+}
+
+.eLogin {
+    padding: 8px 5px 0;
+}
+.eLogin a:hover{
+   text-decoration: underline;
+}
+.eTopShopCart {
+    padding: 8px 10px 0;
+}
+
+.eLogin a {
+    color: #666;
+    display: inline-block;
+
+}
+.eLogin img{
+    width: 40px;
+    height: 40px;
+    z-index: 99999;
+    vertical-align: top;
+    margin-top: -10px;
+    line-height: 40px;
+   
+}
+.eLogin .aaa1{
+   display: none;
+}
+.zgg{
+    display: inline-block;
+    width: 120px;
+    height:140px;
+    /* box-shadow:  */
+     line-height: 30px;
+    position: absolute;
+    right: 117px;
+    top: 50px;
+    background-color: #fff; 
+    box-shadow: 0px 0px 5px #ededed;
+   z-index: 9999;
+    display: none;
+    
+  }
+  .zgg img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    vertical-align: middle;
+    margin-left: 4px;
+  }
+  .zgg a{
+    font-size: 16px;
+    color: #666;
+  }
+  .eTopShopCart:hover .zgg{
+    display: block;
+    animation: pulse 0.5s linear normal forwards;
+    }
+   .zgg a{
+      color: #666;
+    }
+.zgg a:hover{
+    color: #fe4902;
+    }
+
+/* 尾部------------------------------------ */
+footer{
+    background-color: #404144;
+ }
+    .foot{
+      width: 1190px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 60px 10px;
+      font-size: 16px;
+      
+    }
+    .foot a{
+      color: #999;
+      
+    }
+    .foot span{
+      color: #999;
+    }
+    .foot .im{
+      float: right;
+      margin-left: 960px;
+      margin-top: -20px;
+      width: 400px;
+      height: 100px;
+    }
+
+
+/* 动画 */
+@keyframes pulse {
+    0% {
+        transform: scale(0.5, 0.5);
+        opacity  : 0;
+    }
+
+    50% {
+        transform: scale(1, 1);
+        opacity  : 1;
+    }
+
+    75% {
+        transform: scale(1.1, 1.1);
+        opacity  : 1;
+    }
+
+    100% {
+        transform: scale(1, 1);
+        opacity  : 1;
+    }
+}

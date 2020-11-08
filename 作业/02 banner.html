@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .banner {
+            width: 750px;
+            height: 450px;
+            background: red;
+            margin: 50px auto;
+            position: relative;
+        }
+
+        .banner li {
+            position: absolute;
+            opacity: 0;
+        }
+
+        .banner .list-btn {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .banner .list-btn span {
+            display: inline-block;
+            width: 30px;
+            height: 6px;
+            background: rgba(0, 0, 0, 0.5);
+            margin-right: 5px;
+        }
+
+        .banner .list-btn .active {
+            background: #f5004b;
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner" id="banner">
+        <!-- 可视区 -->
+        <ul class="list-img">
+            <!-- 图片列表 -->
+            <!--  <li style="opacity: 1;"><img src="banner/banner1.jpg" alt=""></li>
+            <li><img src="banner/banner2.jpg" alt=""></li>
+            <li><img src="banner/banner3.jpg" alt=""></li> -->
+        </ul>
+        <p class="list-btn">
+            <!-- <span class="active"></span><span></span><span></span> -->
+        </p>
+    </div>
+
+    <script src="./ujiuye.js"></script>
+    <script>
+        //1.获取元素
+        var bannerBox = document.getElementById("banner");
+        var bannerUl = bannerBox.getElementsByTagName("ul")[0];
+        var bannerLi = bannerUl.getElementsByTagName("li");
+        var bannerP = bannerBox.getElementsByTagName("p")[0];
+        var bannerSpan = bannerP.getElementsByTagName("span");
+        var index = 0;
+
+        //完善静态布局，获取后台数据，渲染到页面上
+        ujiuye.ajax({
+            "url": "banner.json",
+            "type": "get",
+            "success": function (res) {
+                console.log(res);
+                var ulStr = "";
+                var pStr = "";
+                for (var i = 0; i < res.length; i++) {
+                    ulStr += '<li><img src="' + res[i].img + '" alt=""></li>';
+                    pStr += "<span></span>";
+                }
+                bannerUl.innerHTML = ulStr;
+                bannerP.innerHTML = pStr;
+
+                //初始化样式
+                bannerLi[0].style.opacity = 1;
+                bannerSpan[0].className = "active";
+
+
+                //划过改变图片和样式
+                for (var i = 0; i < bannerSpan.length; i++) {
+                    bannerSpan[i].index = i;
+                    bannerSpan[i].onmouseover = function () {
+                        index = this.index;
+                        lunbo();
+                    }
+                }
+
+                //自动切换
+                setInterval(lunbo, 2000);
+                function lunbo() {
+                    index++;
+                    if(index==bannerLi.length){index=0;}
+                    for (var j = 0; j < bannerSpan.length; j++) {
+                        bannerSpan[j].className = "";
+                        ujiuye.bufferMove(bannerLi[j], { "opacity": 0 }, 10);
+                    }
+                    bannerSpan[index].className = "active";
+                    ujiuye.bufferMove(bannerLi[index], { "opacity": 1 }, 10);
+                }
+            }
+        });
+
+
+
+    </script>
+</body>
+
+</html>

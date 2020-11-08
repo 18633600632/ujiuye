@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/course.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+</head>
+
+<body>
+
+    <!-- 头部 -->
+    <header class="head">
+        <div class="w1200 bc clearfix">
+            <!-- logo -->
+            <a href="" class="eLogo fl" title="优学-IT职业在线教育">
+                <img src="img/logo_it.jpg" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+            </a>
+
+            <!-- 中间导航 -->
+            <div class="e_nav fl clearfix">
+                <div class="e_nd fl">
+                    <a href="./index.html">首页</a>
+                    <!-- <em></em> -->
+                </div>
+                <!-- 有二级 -->
+                <div class="e_nd fl">
+                    <a href="./course.html" class="hot">精品课程</a>
+                    <!-- <ul class="zg_jpkcx">
+                        <li><a href="">免费课程</a></li>
+                        <li><a href="">精品网课</a></li>
+                    </ul> -->
+                    <div class="zg">
+                        <a href="">免费课程</a><br>
+                        <a href="">精品课程</a>
+                    </div>
+                </div>
+                <div class="e_nd fl">
+                    <a href="">在线直播</a>
+                </div>
+                <div class="e_nd fl">
+                    <a href="">IT培训班</a>
+                </div>
+                <div class="e_nd fl">
+                    <a href="">IT培训机构</a>
+                </div>
+                <div class="e_nd fl">
+                    <a href="">IT问答库</a>
+                </div>
+                <div class="e_nd fl">
+                    <a href="" class="appLoad">APP下载</a>
+                </div>
+            </div>
+
+            <!-- 右边导航 -->
+            <div class="eTopRight fr">
+                <div class="eLogin fr" id="eLogin">
+                    <a href="./register.html">注册</a>
+                    <a href="./login.html">登录</a>
+                    <a href="javascript:;" class="aaa1"><img src="./img/timg.jpg" alt=""></a>
+                </div>
+                <div class="eLogin fr undis"></div>
+                <div class="eTopShopCart fr">
+                    <a href=""><img src="img/ujyx_14.jpg" alt=""></a>
+                    <div class="zgg">
+                        <a href=""><img src="./img/ujyx_16.jpg" alt=""><span>扫码下载</span>
+                        </a><br>
+                        <a href=""><img src="./img/ujyx_17.jpg" alt=""><span>扫码关注</span></a>
+                    </div>
+                </div>
+                <div class="eTopShopCart fr">
+                    <a href=""><img src="img/shopbar.jpg" alt=""></a>
+                </div>
+                <form class="fr formSecher">
+                    <div class="eSecher">
+                        <input type="text" class="eText" placeholder="搜索课程">
+                        <input type="submit" value="" class="eSub">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="offcn_lits ">
+            <a href="http://xue.ujiuye.com">首页</a>
+            &gt;
+            <a href="http://xue.ujiuye.com/list/">全部课程</a>
+        </div>
+        <!-- 课程分类 -->
+        <div class="xk_fl">
+            <dl>
+                <dt>分　　类：</dt>
+                <dd>
+                    <a href="/list/" class="xk_click">全部</a>
+                    <a href="/list-180/">互联网营销</a>
+                    <a href="/list-191/">UI/UE交互设计</a>
+                    <a href="/list-187/">Web前端</a>
+                    <a href="/list-195/">程序开发</a>
+                    <a href="/list-879/">三维可视化设计</a>
+                    <a href="/list-199/">Office</a>
+                    <a href="/list-338/">计算机二级</a>
+                    <a href="/list-700/">计算机软考</a>
+                    <a href="/list-703/">PMP认证</a>
+                    <a href="/list-880/">其他</a>
+                </dd>
+            </dl>
+
+            <dl>
+                <dt>授课方式：</dt>
+                <dd>
+                    <a href="/list/" class="xk_click">全部</a>
+                    <a href="/list/?kj_lubo=1">录播</a>
+                    <a href="/list/?kj_zhibo=1">直播</a>
+                    <a href="/list/?kj_mianshou=1">面授</a>
+                </dd>
+            </dl>
+        </div>
+        <!-- 列表栏 -->
+        <div class="xk_nav">
+            <span class="xk_zh active" data_url="list1">综合排序</span>
+            <span class="xk_xp" data_url="count">销量</span>
+            <span class="xk_xp" data_url="data">新品</span>
+            <span class="xk_jg" data_url="price">价格</span>
+            <div class="jgqj">
+                <a href="javascript:;" class="jiage"> 价格区间 <i class="arrow-down"></i></a>
+                <div class="price-select">
+                    <ul>
+                        <li><a href="/list/">不限</a></li>
+                        <li><a href="/list/?price_begin=100&amp;price_end=9900">￥1-99</a></li>
+                        <li><a href="/list/?price_begin=10000&amp;price_end=49900">￥100-499</a></li>
+                        <li><a href="/list/?price_begin=50000&amp;price_end=99900">￥500-999</a></li>
+                        <li><a href="/list/?price_begin=100000">￥1000及以上</a></li>
+                    </ul>
+                    <div class="price-input">
+                        <form>
+                            <input type="text" name="price_min" class="price-input" placeholder="¥"> - <input
+                                type="text" name="price_max" class="price-input" placeholder="¥">
+                            <a href="javascript:void(0);" url="/list/" class="btn-s siftprice">确定</a></form>
+                    </div>
+                </div>
+            </div>
+            <a class="mfkc " href="javascript:;"><strong>&nbsp;</strong>只看免费课程</a>
+            <a class="mfkc " href="javascript:;"><strong>&nbsp;</strong>只看付费课程</a>
+        </div>
+        <!-- 课程栏 -->
+        <ul class="xk_list clearfix">
+            <!-- <li>
+    	<dl>
+        	<dt>
+				<a href="/class-164097/" target="_blank">
+					<img src="http://xue.ujiuye.com/uploads_it/2007/QuanGuo/F7F984267649NVG0.png?x-oss-process=image/resize,w_285" width="100%" alt="IT精品课程_IT培训精品课程资源_互联网精品资源共享课程_优就业IT职业在线教育" title="IT精品课程_IT培训精品课程资源_互联网精品资源共享课程_优就业IT职业在线教育">
+				</a>
+			</dt>
+        	<dd>
+				<a href="/class-164097/" title="深度学习2大核心算法详解与实战" target="_blank">深度学习2大核心算法详解与实战</a>
+				<p>
+				<em>|</em> <b>共有3人在学</b> | <span class="oran">￥2399.00</span>
+				<span class="green">免费</span>
+				</p>
+			</dd>
+        </dl>
+	  </li> -->
+
+
+    </section>
+    <!-- 底部 -->
+    <footer>
+        <div class="foot">
+            <div class="f">
+                <a href=""> 关于我们 </a> |
+                <a href=""> 联系我们 </a> |
+                <a href=""> 加入我们 </a> |
+                <a href="">品牌荣誉</a> |
+                <a href=""> 版权申明 </a> |
+                <a href=""> 网站地图 </a> |
+                <a href=""> 支付方式</a>
+                <br>
+                <a href="">京ICP备10218183号-88</a><span>京ICP证161188号</span>
+                <a href="">
+                    <img src="./img/gongbei.png"> 京公网安备11010802020723号</a>
+                <br>
+                <span> Copyright©1999-2020 北京中公教育科技有限公司 .All Rights Reserved</span></div>
+            <div class="im">
+                <img src="./img/sm_83x30.png" alt="">
+                <img src="./img/aqkx_83x30.png" alt="">
+            </div>
+        </div>
+    </footer>
+    <script src="./js/ujiuye.js"></script>
+    <script src="./js/course.js"></script>
+    <script src="./js/public.js"></script>
+    
+</body>
+
+</html>

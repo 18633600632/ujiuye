@@ -1,0 +1,37 @@
+[
+    {
+        "class":"新媒体运营",
+        "time":"即将开始",
+        "time2":"15:00:00",
+        "img":"./images/class1.jpg",
+        "href":"./play.html"
+    },
+    {
+        "class":"软件测试开发",
+        "time":"即将开始",
+        "time2":"15:00:00",
+        "img":"./images/class2.jpg",
+        "href":"./movedetail.html"
+    },
+    {
+        "class":"java大数据开发",
+        "time":"即将开始",
+        "time2":"15:00:00",
+        "img":"./images/class1.jpg",
+        "href":"./movedetail.html"
+    },
+    {
+        "class":"Python开发",
+        "time":"即将开始",
+        "time2":"15:00:00",
+        "img":"./images/class1.jpg",
+        "href":"./movedetail.html"
+    },
+    {
+        "class":"图像分类项目(上)",
+        "time": "即将开始",
+        "time2":"19:00:00",
+        "img":"./images/class2.jpg",
+        "href":"./movedetail.html"
+    }
+]

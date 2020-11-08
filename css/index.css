@@ -1,0 +1,513 @@
+/* 广告弹窗 */
+.tanchuang{
+    width: 512px;
+    height: 242px;
+    position: fixed;
+    display: none;
+    right: 10px;
+    bottom: 10px;
+    z-index: 999;
+}
+.tanBtn{
+    width: 20px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+#tanimg{
+    width: 500px;
+}
+#tanimg1{
+width: 300px;
+position: absolute;
+left: 110px;
+top: 67px;
+
+}
+
+
+/* banner开始 --------------------------------------- */
+.banner {
+    position: relative;
+    width: 100%;
+    height: 393px;
+    width: 1200px;
+
+}
+
+.banner ul {
+    height: 393px;
+    width: 1349px;
+    overflow: hidden;
+   
+}
+.banner li {
+    position: absolute;
+    opacity: 0;
+    margin-left: -300px;
+    width: 1200px;
+    height: 393px;
+    text-align: center;
+    
+
+
+}
+.banner li img{
+  /* width: 1200px; */
+    height: 393px;
+   
+
+}
+.banner .list-btn {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.banner .list-btn span {
+    display: inline-block;
+    width: 30px;
+    height: 6px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-right: 5px;
+}
+
+
+
+.banner .list-btn .active {
+    background: #f5004b;
+    ;
+}
+
+.leftBtn,
+.rightBtn {
+
+    position           : absolute;
+    color              : white;
+    background-color: rgba(0, 0, 0, 0.5);
+   
+    width              : 48px;
+    height             : 78px;
+    top                : 150px;
+    text-align         : center;
+    line-height        : 78px;
+    font-size          : 40px !important;
+    font-weight        : bold;
+    cursor             : pointer;
+    display: none;
+
+}
+
+.leftBtn {
+    left: 300px;
+   
+}
+
+.rightBtn {
+    right: -90px;
+}
+/* banner开始 --------------------------------------- */
+
+/* banner上导航开始 ================*/
+.offcn_aside {
+    width      : 230px;
+    height     : 433px;
+    overflow-y : auto;
+    padding-top: 19px;
+    background : rgba(255, 73, 0, 0.8);
+    position   : absolute;
+    top        : -393px;
+}
+
+.offcn_aside::-webkit-scrollbar{
+height: 4px;
+width: 4px;
+background-color: #ffde00;
+}
+.offcn_aside a {
+    color: white;
+}
+
+.offcn_aside a:hover {
+    text-decoration: underline;
+}
+
+.offcn_aside dl {
+    margin-bottom: 17px;
+    padding-left : 14px;
+}
+
+.offcn_aside dl dt {
+    line-height: 30px;
+    font-size  : 18px;
+}
+
+.offcn_aside dl dd a {
+    margin-right: 10px;
+}
+/* banner上导航结束 ================*/
+/*  banner导航下菜单开始========*/
+.nav-parent {
+    height        : 131px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.nav-banb {
+    padding-top   : 20px;
+    padding-bottom: 28px;
+    background    : white;
+}
+
+.nav-banb li {
+    width       : 240px;
+    height      : 81px;
+    text-align  : center;
+    float       : right;
+    border-right: 2px dashed #f1f1f1;
+}
+
+/* 热门直播开始------------------------------ */
+.hotMove {
+    height: 76px;
+    margin-top:10px;
+}
+
+
+/* 标题 */
+.hotMove h3 {
+    line-height: 76px;
+    color      : #333;
+    font-weight: bold;
+    font-size  : 24px;
+}
+
+.hotMove a {
+    height       : 46px;
+    line-height  : 46px;
+    margin-top   : 30px;
+    margin-right : 5px;
+    padding-right: 14px;
+    background   : url('../img/ujyx_07.jpg') no-repeat right center;
+    color        : #999;
+}
+
+.hotMove a:hover {
+    text-decoration: underline;
+    color          : #ff4d00;
+}
+
+.hotMove .hotBox1 {
+    width     : 620px;
+    height    : 350px;
+    background: #333;
+    
+}
+/*热门直播左侧 */
+.hotBox{
+    position: relative;
+}
+.hotBoxL {
+    width     : 620px;
+    height    : 350px;
+    position: absolute;
+    display: none;
+  
+}
+
+
+
+.hotBoxL img {
+    width : 620px;
+    height: 349px;
+   
+}
+
+.hotBoxL span {
+    position     : absolute;
+    padding      : 0 30px 0 50px;
+    left         : 240px;
+    top          : 160px;
+    height       : 52px;
+    line-height  : 52px;
+    border-radius: 26px;
+    font-size    : 16px;
+    color        : white;
+    background   : rgba(0, 0, 0, 0.5) url('../img/ujyx_19.png') no-repeat 25px center;
+}
+
+.hotBoxL p {
+
+    position    : absolute;
+    left        : 0;
+    top     : 312px;
+    width       : 620px;
+    height      : 40px;
+    line-height : 40px;
+    padding-left: 20px;
+    font-size   : 16px;
+    box-sizing  : border-box;
+    color       : #c9c9c9;
+    background  : rgba(0, 0, 0, 0.5);
+}
+/* 热门直播右侧 */
+.hotBoxR {
+    width     : 580px;
+    height    : 350px;
+    background: white;
+}
+
+.hotBoxR ul {
+    height    : 100%;
+    padding   : 10px 0;
+    box-sizing: border-box;
+    background: url('../img/ujyx_24.jpg') repeat-y 43px top;
+}
+
+.hotBoxR ul li {
+    height: 66px;
+    cursor: pointer;
+}
+
+
+.hotBoxR ul div {
+    float      : left;
+    width      : 78px;
+    height     : 50px;
+    padding    : 16px 0 0 34px;
+    margin-left: 35px;
+    background : url('../img/ujyx_19.png') no-repeat left 26px;
+}
+
+.hotBoxR ul div span {
+    display: inline-block;
+    color      : #888888;
+    line-height: 20px;
+    width: 80px;
+}
+
+
+.hotBoxR ul div i {
+    color      : #888888;
+    font-size  : 14px;
+    line-height: 22px;
+
+}
+
+.hotBoxR ul h6 {
+    float      : left;
+    line-height: 66px;
+    font-size  : 16px;
+    color      : #444;
+    margin-left: 40px;
+}
+
+.hotBoxR ul li.on {
+    background: #fff7f3;
+}
+.hotBoxR ul h6 a{
+    font-size  : 16px;
+    color      : #444;
+}
+.hotBoxR ul li.on h6 a {
+    color: #ff4d00;
+}
+
+/* 热门直播结束------------------------------ */
+
+
+
+/* 精品网课开始 */
+.list_title {
+    height     : 72px;
+    margin-left: 60px;
+    line-height: 72px;
+    /* float: left; */
+}
+
+.list_title li {
+   display: inline-block;
+    line-height : 80px;
+    font-size   : 16px;
+    color       : #666;
+    margin-right: 25px;
+    cursor      : pointer;
+}
+
+.list_title li.on {
+    color          : #fe4902;
+    text-decoration: underline;
+}
+
+.list_body {
+    margin-right: -20px;
+    /* display     : none; */
+}
+
+.list_body.show {
+    display: block;
+}
+
+.list_body li {
+    width           : 285px;
+    height          : 255px;
+    background-color: white;
+    margin          : 0 20px 22px 0;
+    /* display     : none; */
+
+}
+
+.list_body li:hover {
+    transform: translateY(-3px);
+}
+
+.list_body li img {
+    width : 100%;
+    height: 160px;
+}
+
+.list_body li h6 {
+    padding      : 0 10px;
+    margin-bottom: 5px;
+    height       : 45px;
+    line-height  : 45px;
+    font-size    : 14px;
+    overflow     : hidden;
+}
+
+.list_body li h6 a {
+    color: #333;
+}
+
+/* .list_body li h6 a:hover {
+    text-decoration: underline;
+} */
+
+.list_body li p {
+    padding: 0 10px;
+}
+
+.list_body li p span {
+    color    : #ff4d00;
+    font-size: 20px;
+}
+
+.list_body li p i {
+    padding   : 2px 6px;
+    background: #ffefe8;
+    font-size : 14px;
+    color     : #fa7a23;
+    position  : relative;
+    top       : 5px;
+}
+
+/* 学习方式 ===============*/
+.bottomBox{
+    height: auto;
+    margin-top: 20px;
+    /* border: 1px solid tomato; */
+    margin-bottom: 50px;
+}
+.b1{
+    width: 100%;
+    height: 50px;
+    /* background-color: thistle; */
+}
+.b1_l{
+    width: 30%;
+    height: 15px;
+    margin-top: 18px;
+    background-color: #ccc;
+}
+.b1_r{
+    width: 30%;
+    height: 15px;
+    margin-top: 18px;
+    background-color: #ccc;
+}
+.b1_m{
+    width: 40%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+}
+.pic1{
+    margin-right: 60px;
+}
+.b2_pic1{
+    margin-top: 20px;
+    width: 30%;
+    height: 140px;
+    background: url(../img/123.png);
+}
+
+.b2_pic2{
+    margin-top: 20px;
+    width: 30%;
+    height: 140px;
+    background: url(../img/1234.png);
+}
+.b2_pic3{
+    margin-top: 20px;
+    width: 30%;
+    height: 140px;
+    background: url(../img/12345.png);
+}
+.b3{
+    margin-top: 30px;
+}
+
+
+/* 列表  */
+section .listChange{
+    width: 1190px;
+  
+    height: 200px;
+  
+    margin: 0 auto;
+  }
+
+  section .listChange dt {
+   
+    height: 46px;
+    width: 100%;
+    line-height: 46px;
+    font-size: 16px;
+    color: #333;
+  
+    font-weight: bold;
+  }
+  section .listChange span {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .listChange dd {
+    display: none;
+    line-height: 32px;
+    font-size: 14px;
+    color: #666;
+  }
+  .listChange dd  a{
+    color: #666;
+    margin: 0px 10px;
+  }
+ 
+  .listChange dd a:hover{
+  color: red;
+  text-decoration: underline;
+  }
+  .listChange .on{
+    color: red;
+    text-decoration: underline;
+    
+  }
+  

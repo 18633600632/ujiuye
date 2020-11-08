@@ -1,0 +1,322 @@
+.offcn_lits a:hover{
+    text-decoration: underline;
+    color: #ff4a00;
+}
+.offcn_lits a{
+    color: #999;
+    font: 14px/28px 'microsoft yahei';
+}
+.offcn_lits{
+    font: 14px/28px 'microsoft yahei';
+    color: #333;
+    width: 1200px;
+    margin: 10px auto;
+}
+/* 课程分类开始 */
+.xk_fl {
+    width: 1200px;
+    margin: 20px auto 5px;
+    overflow: hidden;
+}
+.xk_fl dl {
+    margin-bottom: 15px;
+    clear: both;
+    overflow: hidden;
+}
+.xk_fl dt {
+    float: left;
+    font-size: 14px;
+    line-height: 2;
+    color: #a4a4a4;
+    width: 90px;
+    font-family: "微软雅黑";
+}
+.xk_fl dd {
+    float: left;
+    width: 1110px;
+}
+.xk_fl dd a.xk_click {
+    background: #ff4a00;
+    color: #fff;
+}
+.xk_fl dd a {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    line-height: 2;
+    padding: 0 15px;
+    display: inline-block;
+    color: #666;
+}
+.xk_fl dd a:hover {
+ color: #ff4a00;
+}
+.xk_fl dd .xk_click:hover  {
+    color: #fff;
+ }
+.xk_fl dl {
+    margin-bottom: 15px;
+    clear: both;
+    overflow: hidden;
+}
+.xk_fl dt {
+    float: left;
+    font-size: 14px;
+    line-height: 2;
+    color: #a4a4a4;
+    width: 90px;
+    font-family: "微软雅黑";
+}
+
+
+/* 课程分类结束 */
+/* 列表栏开始 */
+.xk_nav {
+    width: 1198px;
+    border-bottom: 1px solid #e6e6e6;
+    height: 42px;
+    border: 1px solid #efefef;
+    background: #f8f8f8;
+    margin: 0px auto;
+}
+.xk_nav span {
+    width: 100px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    font-size: 16px;
+    color: #555;
+    font-family: "微软雅黑";
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    border-right: 1px solid #efefef;
+}
+
+.xk_nav .xk_xp {
+    background: url(../img/xkp_08.png) no-repeat 70px 15px;
+}
+
+.xk_nav .xk_jg {
+    background: url(../img/xkp_03.png) no-repeat 70px 15px;
+
+}
+
+.xk_nav .xk_xp.active {
+    background: url(../img/xkp_06.jpg) no-repeat 70px 15px #fff;
+    color: #ff4a00;
+}
+/* 价格升序 */
+.xk_nav .active.xk_jg1{
+    background: url(../img/xkp_031.jpg) no-repeat 70px 15px #fff;
+    color: #ff4a00;
+}
+/* 价格降序 */
+.xk_nav .active.xk_jg2 {
+    background: url(../img/xkp_032.jpg) no-repeat 70px 15px #fff;
+    color: #ff4a00;
+}
+.xk_nav .active{
+    background-color: #fff;
+    color: #ff4a00;
+}
+.jgqj {
+    width: 100px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    font-size: 16px;
+    color: #555;
+    font-family: "微软雅黑";
+    background: #f8f8f8;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    border-right: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    position: relative;
+}
+.jiage {
+    width: 100px;
+    height: 42px;
+    display: inline-block;
+    background: #f8f8f8;
+    line-height: 42px;
+    position: relative;
+    z-index: 998;
+    font-size: 16px;
+    font-family: 'Microsoft Yahei';
+    color: #555;
+}
+.price-select {
+    position: absolute;
+    z-index: 10;
+    width: 208px;
+    border: 1px solid #efefef;
+    background: #fff;
+    box-shadow: 1px 1px 3px #ddd;
+    display: none;
+    top: 41px;
+}
+.xk_nav .jgqj:hover .price-select {
+display: block;
+}
+.xk_nav .jgqj:hover .jiage{
+    background-color: #fff;
+    color: #ff4a00;
+    
+}
+.xk_nav .jgqj .price-select li:hover a{
+  color:tomato;
+}
+.price-input input {
+    width: 38px;
+    height: 18px;
+    padding: 5px;
+    vertical-align: middle;
+    border: 1px solid #e5e5e5;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: left;
+    outline: none;
+}
+.price-select ul li {
+    text-align: left;
+}
+.price-input a {
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    background: #ff4a00;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+.price-select ul li a {
+    height: 38px;
+    line-height: 38px;
+    padding: 0 20px;
+    color: #555;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei';
+}
+.xk_nav .mfkc {
+    padding-left: 20px;
+    margin-left: 45px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #555;
+    font-family: 'Microsoft Yahei';
+    position: relative;
+    float: left;
+}
+.xk_nav .mfkc:hover{
+    color:  #ff4a00;
+}
+.xk_nav .mfkc:hover strong{
+    border-color:  #ff4a00;
+}
+.xk_nav .mfkc.on strong {
+    border: 1px solid #ff4a00;
+    background: url(../img/yx_dj_03.jpg) no-repeat;
+}
+.xk_nav .mfkc strong {
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #c0c0c0;
+    position: absolute;
+    top: 11px;
+    left: 0;
+}
+
+.arrow-down {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
+    background: url(../img/xkp_03.png) no-repeat left -6px;
+    margin-left: 3px;
+}
+
+/* 列表栏结束 */
+/* 课程栏开始 */
+.xk_list {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    clear: both;
+}
+.xk_list li {
+    float: left;
+    width: 275px;
+    height: 230px;
+    margin-top: 30px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.xk_list li dl {
+    width: 275px;
+    height: 230px;
+}
+.xk_list li dt {
+    width: 285px;
+    height: 160px;
+    overflow: hidden;
+}
+.xk_list li .green{
+    color: green;
+
+}
+.xk_list li .orange{
+    color: orange;
+
+}
+.xk_list li dt img {
+    display: block;
+    width: 255px;
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+.xk_list li dd {
+    height: 72px;
+}
+.xk_list li dd a {
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #333;
+    line-height: 46px;
+    height: 46px;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.xk_list li:hover:before {
+    background: #fff;
+    -webkit-box-shadow: 0 0 9px 1px #ccc;
+    box-shadow: 0 0 9px 1px #ccc;
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    margin: auto;
+    z-index: -1;
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+.xk_list li:hover dt img {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+/* 课程栏结束 */

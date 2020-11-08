@@ -1,0 +1,488 @@
+section {
+ margin: 0 auto;
+}
+.bodybg{
+    height:360px;
+    min-width: 1200px;
+    margin-bottom: 20px;
+   background: linear-gradient(to right,#4f95da,#5a36ca,#5e31c8,#883ebb );
+}
+.bodyTop{
+    height:360px;
+    width: 1200px; 
+    margin: 0 auto; 
+}
+.bodyTop h2{
+    padding-top: 20px;
+    color: #fff;
+}
+.bodyTop h2 a{
+    font: 14px/20px "Microsoft YaHei";
+    color: #fff;
+}
+.bodyTop h2 a:hover{
+    text-decoration: underline;
+}
+
+.bodyTopbg{
+    width: 730px;
+    height: 318px;
+    margin-left: 20px;
+}
+.bodyTopDel{
+    width: 730px;
+    height: 218px;
+    margin-top: 50px;
+}
+.bodyTopDel .title{
+    font:28px/48px "Microsoft YaHei";
+    color: #fff;
+}
+
+.bodyTopDel p{
+    font:14px/24px "Microsoft YaHei";
+    color: #fff;
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+.bodyTopDel .classTime{
+    line-height: 50px;
+    color: #fff;
+    margin-top: 17px;
+    font-size: 14px;
+    height: 50px;
+    font-family: "Microsoft YaHei";
+    margin-bottom: 20px;
+}
+.bodyTopDel .classTime span{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    float: left;
+    width: 83px;
+}
+.bodyTopDel .classTime a{
+    display: block;
+    float: left;
+    color: #fffc00;
+    line-height: 38px;
+    font-size: 14px;
+    width: 276px;
+    padding: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-right: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.bodyTopDel .classTime a i{
+     font-weight: bold;
+}
+.bodyTopDel .classTime a i:nth-child(1){
+    padding-left: 7px;
+}
+
+.bodyTopDel .classAn span{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    line-height: 40px;
+    font-family: "Microsoft YaHei";
+    float: left;
+}
+.bodyTopDel .classAn span:nth-of-type(1){
+    width: 83px;
+}
+.bodyTopDel .classAn span:nth-of-type(3){
+    padding: 0 12px;
+}
+
+
+/* 白色部分 */
+.bodyWhite{
+   height: auto;
+    width: 1200px; 
+    margin: 0 auto;
+}
+.bodyWhite .poskuai{
+     height: 58px;
+     width: 100%;
+     background-color: #fff;
+     
+}
+.bodyWhite .down{
+    display: none;
+}
+.bodyWhite .poskuai span{
+    float: right;
+    font-size: 30px;
+    color: #f20000;
+    line-height: 60px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+}
+.bodyWhite .poskuai i{
+    font-family: "Microsoft YaHei";
+    float: right;
+    height: 35px;
+    width: 85px;
+    color: #f20000;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color:#ffe8e8 ;
+    border-radius: 4px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.bodyWhite .poskuai b{
+    font-family: "Microsoft YaHei";
+    float: right;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    position: fixed;
+    top: 19px;
+    right: 10px;
+    cursor: pointer;
+    background:linear-gradient(to right,#f63d30,#ff6635);
+}
+.bodyWhite .poskuai b:hover{
+    text-decoration: underline;
+}
+.bodyWhite #classDel{
+    float: left;
+    height: 58px;
+    width: 780px;
+    border-bottom: 1px solid #eee;
+}
+.bodyWhite .posAct{
+    position: fixed;
+    top: 0;
+    z-index: 333;
+    box-shadow: 0px -1px 10px 1px rgb(214, 208, 208);
+}
+.bodyWhite #classDel li{
+    float: left;
+    display: block;
+    margin-right: 48px;
+    height: 57px;
+    line-height: 57px;
+    font-size: 18px;
+    color: #333;
+    font-family: "Microsoft YaHei";
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+}
+.bodyWhite #classDel .classAct{
+    color: #026dff;
+    border-bottom: 2px solid #026dff;
+}
+
+/* 课程介绍 */
+#classIntro img{
+    display: block;
+    width: 780px;
+}
+#classIntro img:nth-of-type(1){
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 115px;
+}
+#classIntro img:nth-of-type(2){
+    margin-bottom: 20px;
+}
+#classIntro img:nth-last-of-type(1){
+    margin-bottom: 50px;
+}
+
+/* 课程安排 */
+.bodyWhite #classPlan{
+    display: none;
+}
+.bodyWhite #classPlan .planDel{
+    width: 780px;
+    height: 60px;
+    border-bottom: 1px solid #eee;
+}
+
+.bodyWhite #classPlan .planDel li{
+    float: left;
+    margin-right: 25px;
+    line-height:60px;
+    font-size: 14px;
+    color: #666;
+    font-family: "Microsoft YaHei";
+}
+.bodyWhite #classPlan .planDel li span{
+    display: inline-block;
+}
+.bodyWhite #classPlan .planDel li i{
+    display: inline-block;
+    padding-right: 8px;
+    color: #8cc8f9;
+    font-size: 18px;
+}
+.bodyWhite #classPlan .planDel .planAct i{
+    font-size: 20px;
+    color: #3183f3;
+    
+}
+.bodyWhite #classPlan .planDel .planAct span{
+    font-weight: bold;
+    font-size: 16px;
+}
+.bodyWhite #classPlan .planDel li:hover i{
+    color: #3183f3;
+}
+.bodyWhite #classPlan .planDel li:hover span{
+    color: #09a936;
+    text-decoration: underline;
+}
+
+#classPlan .planList{
+    margin-top: 10px;
+    margin-bottom:50px;
+}
+#classPlan .planList li{
+    width: 677px;
+    height: 70px;
+    padding-left: 58px;
+    padding-right: 35px;
+    position: relative;
+    font-size: 14px;
+    color: #666;
+    line-height: 70px;
+    font-family: "Microsoft YaHei";
+}
+#classPlan .planList li p{
+    float: left;cursor: pointer;
+}
+#classPlan .planList li i{
+    position: absolute;
+    left:21px;
+    top: -2px;
+    font-size: 22px;
+    color: #3183f3;
+    
+}
+#classPlan .planList li span{
+    float: right;
+}
+
+#classPlan .planList li .listStudy{
+    display: none;
+    float: right;
+    width: 88px;
+    height: 33px;
+    color: #3183f3;
+    line-height: 35px;
+    margin-top: 16px;
+    border: 1px solid #3183f3;
+    border-radius: 3px;
+    text-align:center;
+    cursor: pointer;
+}
+#classPlan .planList li .listStudy:hover{
+    background-color:#b5d7f3a9;
+}
+#classPlan .planList li:hover{
+    background-color: #b5d9f73f;
+    color: #3183f3;
+}
+#classPlan .planList li:hover .listTime{
+    display: none;
+}
+#classPlan .planList li:hover .listStudy{
+    display: block;
+}
+#classPlan .planList li .listTime{
+    color: #999;
+    /* display: none; */
+}
+
+
+#classEvaluate,#classPro{
+    height: 500px;
+    display: none;
+}
+
+
+/* 
+定位小图 */
+.bodyTop{
+    position: relative;
+}
+.bodyKuai{
+    width: 360px;
+    height: 464px;
+    background-color: #fff;
+    position: absolute;
+    right: 0px;
+    top: 53px;
+    border-radius: 4px;
+    font-family: "Microsoft YaHei";
+    box-shadow: 0 0 10px 1px rgba(143, 142, 142, 0.39);
+}
+.bodyKuai img{
+    width: 350px;
+    height: 196px;
+    margin: 5px;
+}
+.bodyKuai p{
+    width: 330px;
+    height: 28px;
+    margin-top: 14px;
+    padding: 0 15px;
+    font-family: "Microsoft YaHei";
+}
+.bodyKuai p i{
+    float: left;
+    display: block;
+    font-size: 22px;
+    line-height: 28px;
+    color: #e30000;
+    margin-right: 10px;
+}
+.bodyKuai p del{
+    float: left;
+    display: block;
+    font-size: 12px;
+    color: #999;
+    line-height:28px;
+}
+
+.bodyKuai .kuaiShare{
+    width: 330px;
+    height: 18px;
+    margin: 17px 15px 20px 15px;
+}
+.bodyKuai .kuaiShare span{
+    float: right;
+    display: block;
+    font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    
+}
+.bodyKuai .kuaiShare span:nth-of-type(2){
+    color: #666;
+    position: relative;
+}
+.bodyKuai .kuaiShare span:nth-of-type(1) i{
+    display: inline-block;
+    font-size: 18px;
+    margin: 0px 10px 0 25px;
+    vertical-align: bottom;
+}
+.bodyKuai .kuaiShare span:nth-of-type(2) i{
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 10px 0 25px;
+    color: #999;
+}
+.bodyKuai .kuaiShare span:nth-of-type(2) img{
+    position: absolute;
+    top: 25px;
+    left: -40px;
+    width: 150px;
+    z-index: 444;
+    display: none;
+    box-shadow: 0 0 10px 1px rgba(143, 142, 142, 0.651);
+}
+.bodyKuai .kuaiShare span:nth-of-type(1):hover{
+   text-decoration: underline;
+   color: #666;
+}
+.bodyKuai .kuaiShare span:nth-of-type(1):hover i{
+    color: #fc9738;
+}
+.bodyKuai .kuaiShare span:nth-of-type(2):hover i{
+    color: #02a502;
+}
+.bodyKuai .kuaiShare span:nth-of-type(2):hover img{
+    display: block;
+}
+
+.bodyKuai .kuaiJoin{
+    display: block;
+    margin: 0 15px;
+    width: 330px;
+    height: 48px;
+    font-size: 16px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 48px;
+    color: #fff;
+    background:linear-gradient(to right,#f63d30,#ff6635);
+    opacity: 0.9;
+ }
+ .bodyKuai .kuaiJoin:hover{
+    opacity: 1;
+    text-decoration: underline;
+ }
+ .bodyKuai .consult{
+    margin: 12px 15px 19px 15px;
+    width: 330px;
+    height: 48px;
+ }
+
+ .bodyKuai .consult a{
+     display: block;
+     float: left;
+     width: 156px;
+     height: 48px;
+     background-color: #ffe8e8;
+     color: #ff0e0e;
+     font-size: 16px;
+     text-align: center;
+     line-height: 48px;
+     border-radius: 4px;
+ }
+ .bodyKuai .consult a:hover{
+     text-decoration: underline;
+     background-color: #ecbdbdd7;
+ }
+ .bodyKuai .consult a:nth-of-type(1){
+     margin-right: 18px;
+ }
+
+ .bodyKuai .kuaiSup{
+     font-size: 12px;
+     color: #999;
+     margin-left: 15px;
+     height: 20px;
+     font-family: "Microsoft YaHei";
+ }
+ .bodyKuai .kuaiSup i{
+     display: inline-block;
+     font-size: 18px;
+     padding:0 5px 0 12px;
+     position: relative;
+ }
+ .bodyKuai .kuaiSup i:hover{
+     color: #666;
+ }
+
+ .bodyKuai .kuaiSup i img{
+     width: 110px;
+     height: 110px;
+     position: absolute;
+     top: 25px;
+     left: -47px;
+     padding: 10px;
+     background-color: #fff;
+     display: none;
+     box-shadow: 0 0 10px 1px rgba(143, 142, 142, 0.39);
+ }
+ .bodyKuai .kuaiSup i:hover img{
+     display: block;
+ }

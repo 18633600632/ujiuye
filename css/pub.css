@@ -1,0 +1,134 @@
+/* 右侧返回顶部和后侧栏 */
+#myBtn {
+    display: none; /* 默认隐藏 */
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none;
+    outline: none; 
+    background:rgba(0,0,0,0.5); /* 设置背景颜色，你可以设置自己想要的颜色或图片 */
+    color: white; /* 文本颜色 */
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 15px; /* 圆角 */
+    font-size: 20px;
+}
+/* 右侧框  */
+#abab{
+    width:auto;
+    height: auto;
+    position: fixed;
+    right:-161px;
+    top: 50px;
+    z-index: 9999;
+
+}
+#a{
+    width: 30px;
+    height: 140px;
+    background-color: #ff4a00;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+    color: #fff;
+    position: absolute;
+    left: -194px;
+    top: 100px;
+    z-index: 100;
+    cursor: pointer;
+}
+#b{
+ height: auto;
+ width: 161px;
+ background-color: #111;
+ position: absolute;
+ right: 0px;
+ top: 0px;
+}
+#b p{
+    color: #ccc;
+    font-size: 18px;
+    text-align: center;
+    border-top: 1px dashed #ccc;
+    padding-top: 10px;
+    font-weight: 800;
+}
+#b span{
+    display: inline-block;
+    color: #ccc;
+    font-size: 18px;
+    padding-top: 10px;
+   padding-left: 30px;
+   padding-bottom: 10px;
+
+}
+ /* 扫码区  */
+ #scan{
+     /* width: 50px;
+     height: 150px; */
+     width: 50px;
+     height:auto;
+     /* border: 1px solid #000; */
+     position: fixed;
+     top: 300px;
+     right: 0px;
+     z-index: 888;
+ }
+ #scan li{
+     position: relative;
+      /* width: 40px;
+     height: 60px; */
+     margin-top: 20px;
+   
+ }
+ 
+.weiixn{
+    display: block;
+    width: 50px;
+    height: 50px;
+   
+    position: relative;
+    
+}
+.weibo{
+   display: block;
+   width: 60px;
+    height: 60px;
+
+    position: relative;
+}
+.qq{
+    display: block;
+    width: 60px;
+    height: 60px;
+ 
+    /* position: relative; */
+}
+.weixin_scan,.weibo_scan,.qq_scan{
+    width: 140px;
+    height: 140px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 20px;
+    position: absolute;
+}
+.weixin_scan{
+    left: -146px;
+    top: 0px;
+    display: none;
+}
+.weibo_scan{
+    left: -146px;
+    top: -10px;
+    display: none;
+}
+.qq_scan{
+ left: -146px;
+  top: 0px;
+  display: none;
+}

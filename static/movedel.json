@@ -1,0 +1,32 @@
+[
+    {   
+        "src":"./video/微微.mp4",
+        "icon":"iconfont icon-zhibo-",
+        "title":"第1讲 · 深度学习2大核心算法详解与实战",
+        "time":"07-30 19:30"
+    },
+    {
+        "src":"./video/你的答案.mp4", 
+        "icon":"iconfont icon-ziyuan",
+        "title":"第2讲 · 第1讲：零基础卷积神经网络彻底入门",
+        "time":"01:03:06"
+    },
+    {
+        "src":"./video/Light.mp4",
+        "icon":"iconfont icon-zhibo-",
+        "title":"第3讲 · 零基础卷积神经网络实战",
+        "time":"07-30 19:30"
+    },
+    {     "src":"./video/mov_bbb.mp4",
+        "icon":"iconfont icon-zhibo-",
+        "title":"第4讲 · 快速入门词嵌入Word2Vec",
+        "time":"08-06 19:30"
+    },
+    {
+       
+        "src":"./video/微微.mp4",
+        "icon":"iconfont icon-zhibo-",
+        "title":"第5讲 · Word2Vec词嵌入实战",
+        "time":"08-13 19:30"
+    }
+]

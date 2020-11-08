@@ -1,0 +1,103 @@
+[
+    {
+        "img":"http://xue.ujiuye.com/uploads_it/2007/QuanGuo/F7G1924784663N77.jpg?x-oss-process=image/resize,w_285",
+        "href":"http://xue.ujiuye.com/class-162262/",
+        "count":"225",
+        "title":"./movedetail.html",
+        "price":9.90,
+        "type":"付费",
+        "data":"2020-5-1"
+    },
+    {
+        "img":"http://xue.ujiuye.com/uploads_it/2007/QuanGuo/F7F984267649NVG0.png?x-oss-process=image/resize,w_285",
+        "href":"./movedetail.html",
+        "count":"0",
+        "title":"深度学习2大核心算法详解与实战",
+        "price":0,
+        "type":"免费",
+        "data":"2020-3-1"
+    },
+    {
+        "img":"http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5D2125005456DEW.png?x-oss-process=image/resize,w_285",
+        "href":"http://xue.ujiuye.com/class-139256/",
+        "count":"209",
+        "title":"Office考证全程协议班",
+        "price":399.00,
+        "type":"付费",
+        "data":"2020-4-6"
+    },
+    {
+        "img":"http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5T1972234229F9Y.jpg?x-oss-process=image/resize,w_285",
+        "href":"http://xue.ujiuye.com/class-146907/",
+        "count":"0",
+        "title":"【基础】社群运营实战技巧班",
+        "price":19.90,
+        "type":"付费",
+        "data":"2020-2-14"
+    },
+    {
+        "img":"http://xue.ujiuye.com/uploads_it/2006/QuanGuo/F682091147347RZY.jpg?x-oss-process=image/resize,w_285",
+        "href":"http://xue.ujiuye.com/class-140594/",
+        "count":"104",
+        "title":"【进阶】【直播】抖音自媒体电商+私域流量变现",
+        "price":2399.00,
+        "type":"付费",
+        "data":"2020-4-16"
+    },
+    {
+        "img":"http://xue.ujiuye.com/uploads_it/2007/QuanGuo/F77808376452UR70.jpg?x-oss-process=image/resize,w_285",
+        "href":"http://xue.ujiuye.com/class-150583/",
+        "count":"223",
+        "title":"【直播+录播】SEO与网站运营实战-网站建设与优化实操演",
+        "price":2999.00,
+        "type":"付费",
+        "data":"2020-6-1"
+    },
+    {
+        "img":"http://xue.ujiuye.com/uploads_it/2006/QuanGuo/F6N14087487338VE.jpg?x-oss-process=image/resize,w_285",
+        "href":"http://xue.ujiuye.com/class-156618/",
+        "count":"101",
+        "title":"【进阶】【直播+录播】电商运营与创业实战特训营-店铺",
+        "price":2999.0,
+        "type":"付费",
+        "data":"2020-3-4"
+    },
+    {
+        "img":"http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F561019341759NPY.jpg?x-oss-process=image/resize,w_285",
+        "href":"http://xue.ujiuye.com/class-131138/",
+        "count":"101",
+        "title":"【直播+录播】SEM与信息流精准投放-策略班",
+        "price":3999.0,
+        "type":"付费",
+        "data":"2020-3-1"
+    },
+    {
+        "img":"http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4A1666275388KXH.jpg?x-oss-process=image/resize,w_285",
+        "href":"http://xue.ujiuye.com/class-30888/",
+        "count":"0",
+        "title":"【进阶】掌握JavaScript、ES6和Jqurey，实现页面交互",
+        "price":1990.0,
+        "type":"付费",
+        "data":"2020-4-27"
+    },
+    {
+        "img":"http://xue.ujiuye.com/uploads_it/2003/QuanGuo/F3V2096426999TCB.jpg?x-oss-process=image/resize,w_285",
+        "href":"http://xue.ujiuye.com/class-75806/",
+        "count":"356",
+        "title":"【进阶】Web小程序开发基础到项目搭建 制作家常菜小程",
+        "price":99.0,
+        "type":"付费",
+        "data":"2020-4-2"
+    },
+   
+       {
+            "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4A921611239PIZN.jpg?x-oss-process=image/resize,w_285",
+            "href": "http://xue.ujiuye.com/class-21013/",
+            "count": "23",
+            "title": "【系统】电商运营系统精品课",
+            "price": 680.0,
+            "type": "付费",
+            "data": "2021-02-12"
+            }
+
+]
